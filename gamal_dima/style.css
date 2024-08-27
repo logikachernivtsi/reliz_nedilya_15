@@ -1,0 +1,115 @@
+body {
+    font-family: sans-serif;
+    background-color: black;
+    font-size:20px;
+    color: white;
+}
+
+h1 {
+    font-size:40px;
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+
+nav {
+    margin: -8px -8px 0 -8px;
+    background: linear-gradient(to right ,rgb(255,0,0) , rgb(255,255,0));
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    height: 200px;
+    align-items: center;
+}
+
+nav::before {
+    content: url("https://learn.logikaschool.com/uploads/student/2977340/66c730195348f.png");
+    display: inline-block;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    margin: 10%;
+    font-size: 30px;
+    
+}
+
+.pro_nas {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.knopki{
+    display: flex;
+    justify-content: space-between;
+}
+
+.knopki a{
+    text-decoration: none;
+    color:black;
+    text-align: center;
+    font-size:24px;
+}
+
+.knopki a:first-child{
+    width: 80px;
+    padding: 12px 50px;
+    background: linear-gradient(90deg, #FF0000 0%, #FF8A00 100%);
+}
+
+.knopki a:last-child{
+    width: 80px;
+    padding: 12px 50px;
+    background: linear-gradient(90deg, #FF8A00 0%, #FFE600 100%);
+}
+
+article{
+    width: 400px;
+}
+
+.menu{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu article{
+    width: 500px;
+    text-align: left;
+}
+
+.reviews{
+    display: flex;
+    justify-content: center;
+    flex-wrap:wrap ;
+}
+
+.review{
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    width: 800px;
+}
+
+.review img{
+    width: auto;
+    height: auto;
+    margin: auto 20px auto 20px;
+}
+
+.map{
+    display: flex;
+    justify-content: center;
+}
+
+footer{
+    background: linear-gradient(90deg, #FF0000 0%, #FF8A00 100%);
+    height: 100px;
+    color:black;
+    padding: 40px;
+    font-style: oblique;
+    line-height:40px;
+}
