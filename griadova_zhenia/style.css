@@ -1,0 +1,191 @@
+body {
+    background: linear-gradient(#FEFFBA, #8C99CA);
+    height: 3228px;
+}
+
+section {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+nav a:hover {
+    font-size: 30px;
+    transition: 0.5s linear;
+}
+
+.logo {
+    width: 400px;
+    height: 224px;
+    margin-top: 30px;
+}
+
+main h1 {
+    text-align: center;
+    color: #1F2A4E;
+    font-size: 40px;
+}
+
+main p {
+    font-size: 32px;
+    color: #24366e;
+}
+
+header h1 {
+    font-size: 70px;
+    margin-bottom: 15px;
+    color: #536484;
+}
+
+.igrovi {
+    display: flex;
+}
+
+.foto {
+    height: 300px;
+    width: 550px;
+    margin-right: 20px;
+    margin-top: 50px;
+    padding: 5px;
+}
+
+.foto:hover {
+    height: 350px;
+    width: 600px;
+    border: #24366e double 10px;
+    margin-right: 20px;
+    margin-top: 50px;
+    transition: 0.5s linear;
+}
+
+.call {
+    background-color: #4E67A8;
+    padding: 10px 15px;
+    font-family: "Rubik Bubbles";
+    color: #1F2A4E;
+}
+
+.call:focus {
+    color: #eaec77;
+}
+
+.call:hover {
+    color: #eaec77;
+    transition: 0.5s linear;
+}
+
+header {
+    width: 100%;
+}
+
+nav{
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #5F7F96;
+    height: 120px;
+}
+
+.rubik-puddles-regular {
+  font-family: "Rubik Puddles", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.rubik-mono-one-regular {
+  font-family: "Rubik Mono One", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.rubik-bubbles-regular {
+  font-family: "Rubik Bubbles", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1 {
+    font-family: 'Rubik Bubbles';
+}
+
+
+
+nav a{
+    font-family: 'Rubik Mono One';
+    font-size: 24px;
+    color: #F8FFA7;
+    text-shadow: 0px 4px 4px #E8EC51;
+    text-decoration: none;
+    margin: 5px 10px 5px 10px ;
+}
+
+
+footer{
+    display: flex;
+    height: 300px;
+    justify-content: space-between;
+}
+
+.knopki{
+    margin-left:0;
+    width: 300px;
+    height: 200px;
+    text-align: left;
+    padding: 10px;
+    line-height: 40px;
+    font-size: 32px;
+}
+
+.library {
+    width: 100%;
+    filter: grayscale(100%);
+}
+
+.akcii {
+    font-size: 32px;
+    color: #1F2A4E;
+}
+
+.aksi {
+    width: 400px;
+    text-align: center;
+}
+
+.library:hover {
+    filter: grayscale(0%);
+    transition: 0.5s linear;
+}
+
+.knopki h1 {
+    color: #6757c2;
+}
+
+.contact{
+    line-height: 10px;
+}
+
+.contakticosial {
+    position: relative;
+    top:40px;
+    color: #24366e;
+}
+
+.social{
+    line-height: 40px;
+}
+
+.soc{
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+}
+
+a {
+    text-decoration: none;
+}
+
+.knopki a {
+    font-size: 32px;
+    margin-top: -60px;
+    color: #24366e;
+}
