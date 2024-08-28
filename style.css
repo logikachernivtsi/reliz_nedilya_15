@@ -1,15 +1,11 @@
 body{
-    background-color: #8DC63F;
+    background-color: #bff378;
     height:400px;
     font-family: 'Montserrat', sans-serif;
 }
 
-.img h1{
-    color:#F34A7D; 
-    font-size: 40px;
-    position:relative;
-    top:100px;
-    
+header{
+    height:70px;
 }
 .logo{
     position:absolute;
@@ -30,7 +26,6 @@ li {
 }
 
 .name{
-    display: flex;
     float: left;
     margin-left: 40px;
 }
@@ -40,16 +35,20 @@ main{
     justify-content:space-between;
 }
 .img{
-    display: flex;
     width: ;
-    height: 300px;
+    height:;
 }
 
 .img img{
     position:relative;
-    top:120px;
-    width:500px;
+    top:10px;
+    width:505px;
     height:250px
+}
+.img h1{
+    color:#602B7A; 
+    font-size: 40px;
+    text-align:center;
 }
 
 .footer{
