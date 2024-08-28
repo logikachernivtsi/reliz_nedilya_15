@@ -29,10 +29,10 @@ li {
     float: left;
     margin-left: 40px;
 }
-main{
+.main{
     width:100%;
     display:flex;
-    justify-content:space-between;
+    justify-content:space-around;
 }
 .img{
     width: ;
