@@ -1,0 +1,203 @@
+body {
+  background: linear-gradient( #0C52DA, #E7FF54);
+  font-family: 'Brush Script MT', cursive;
+  height: 3200px;
+  width: 100%;
+  padding:15px;
+}
+nav a{
+  color: black;
+  background-color: #09CCC0;
+  font-size:26px;
+  text-decoration: none;
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 4px;
+}
+nav{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+p{
+  font-size: 20px;
+}
+h1{
+  font-family: 'Rubik One', sans-serif;
+  font-size: 50px;
+  text-transform: uppercase;
+  background: linear-gradient(#0C52DA, #E7FF54);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+  margin: 20px auto;
+}
+.p1{
+  font-family: 'Rubik One', sans-serif;
+  text-transform: uppercase;
+  background: linear-gradient(#24D0C6, #E7FF54);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin: 20px auto;
+}
+h2{
+  font-size: 38px;
+  color: #24D0C6;
+  font-family:  'Brush Script MT', cursive;
+}
+.p2{
+  text-transform: uppercase;
+  background: linear-gradient(#24D0C6, #E7FF54);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.img1{
+  width: 300px;
+  height: 260px;
+  transition: 0.5s ease-out;
+}
+.img2{
+  width: 300px;
+  height: 260px;
+  transition: 0.5s ease-out;
+}
+section{
+  display: flex;
+  margin-top: 30px;
+}
+.img3{
+  margin-right: 26px;
+  width: 350px;
+  height: 300px;
+}
+.img4{
+  margin-right: 26px;
+  width: 350px;
+  height: 300px;
+}
+.img5{
+  margin-right: 26px;
+  width: 350px;
+  height: 300px;
+}
+.imgrevirews{
+  width: 110px;
+  border-radius: 200px;
+}
+.knopki{
+  text-decoration: none;
+  text-transform: uppercase;
+  background: linear-gradient(#09CCC0, #ffd000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 22px;
+}
+main a{
+  color: black;
+  background-color: #09CCC0;
+  font-size:28px;
+  text-decoration: none;
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 2px;
+  margin-left: 11px;
+  background: linear-gradient(#24D0C6, #E7FF54);
+}
+main a:hover{
+  transition: 2s ease-out;
+  box-shadow: 0 5px 5px 5px #72d4cf;
+  background: linear-gradient(to right,#09CCC0,white,gold);
+}
+.imgrevirews:hover{
+  transition: 0.7s ease-out;
+  border: dotted 9px plum;
+}
+.Reviewsp:hover{
+  transition: 0.7s ease-out;
+  font-size: 23px;
+}
+.img1:hover{
+  transition: 0.5s ease-out;
+  border-top: dotted 13px cadetblue;
+  border-left: dotted 13px cadetblue;
+  border-right: dotted 13px cadetblue;
+  border-bottom: dotted 13px cadetblue;
+}
+.img2:hover{
+  transition: 0.5s ease-out;
+  border-top: dotted 13px cadetblue;
+  border-left: dotted 13px cadetblue;
+  border-right: dotted 13px cadetblue;
+  border-bottom: dotted 13px cadetblue;
+}
+h2:hover{
+  transition: 0.9s ease-out;
+  font-size: 50px;
+}
+.headerimg{
+  width: 80px;
+  height: 79px;
+  position: absolute;
+  position: fixed;
+  left: 840px;
+}
+.headerimg:hover{
+  transition: 0.5s ease-out;
+  border-top: dotted 10px yellow;
+  border-left: dotted 10px yellow;
+  border-right: dotted 10px yellow;
+  border-bottom: dotted 10px yellow;
+}
+nav a:hover{
+    transition: 0.9s ease-out;
+    font-size: 30px;
+}
+table{
+    margin:40px auto;
+    text-align: center;
+    font-size: 28px;
+    background: linear-gradient(#24D0C6, #E7FF54);
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+td {
+  border: 1px solid black;
+}
+.navdiv{
+  display: flex;
+  justify-content: space-between;
+}
+section{
+  display: flex;
+  justify-content: space-between;
+}
+.Catalogue{
+  display: flex;
+  justify-content: space-evenly;
+}
+h2{
+  text-align: center;
+}
+iframe{
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+ 
+}
+footer{
+  display: flex;
+  justify-content: space-between;
+  height: 346px;
+  background: linear-gradient(180deg, #0C52DA 0%, #E8FF59 65.5%);
+}
+.kno{
+   line-height: 80px;
+}
+.contact p{
+   text-transform: uppercase;
+    background: linear-gradient(#24D0C6, #E7FF54);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size:26px;
+}
