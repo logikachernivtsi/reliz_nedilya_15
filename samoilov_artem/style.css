@@ -1,0 +1,98 @@
+body {
+    font-family: 'Russo One';
+}
+
+header{
+    background:url("https://learn.logikaschool.com/uploads/student/1791431/66cf408b71b0d.jpg");
+    background-size: cover;
+    height: 400px;
+    width: 100%;
+}
+
+p {
+    font-size: 20px;
+}
+
+h1 {
+    color: #B50000;
+    font-size:80px;
+    text-align: center;
+}
+
+h1 span{
+    color:white;
+    font-family: "Romanesco", cursive;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 147px;
+    font-size:80px;
+
+}
+
+h2 {
+    font-family: 'Russo One';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 58px;
+    color: #000000;
+    text-align: center;
+}
+
+.product h3{
+    text-align: center;
+    font-size:32px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+nav a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    border-bottom: 1px dotted rgb(255, 255, 255);
+}
+
+nav a:hover{
+     border-bottom: 1px dotted navy;
+}
+
+section{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.product, .product p, .product img{
+    width: 400px;
+}
+
+
+.reviews {
+    flex-wrap: nowrap;
+    display: flex;
+    justify-content: center;
+}
+
+.review {
+    color: black;
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    width: 800px;
+}
+.review p{
+    width: 400px;
+}
+
+span {
+    color: firebrick;
+    border-bottom: 1px dotted firebrick;
+}
+
+footer{
+    background-color: #B50000;
+    color:white;
+    padding: 10px;
+}
