@@ -5,7 +5,7 @@ body{
 
 header h1{
     text-align: center;
-    color:#F34A7D; 
+    color:#602B7A; 
     font-size: 40px;
 }
 .logo{
@@ -34,8 +34,7 @@ li {
 
 .img{
     display: flex;
-    width: 900px;
-    height: 700px;
+    width: 600px;
 }
 
 .footer{
