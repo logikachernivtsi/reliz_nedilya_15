@@ -8,7 +8,12 @@ header h1{
     color:#F34A7D; 
     font-size: 40px;
 }
-
+.logo{
+    position:absolute;
+    left:5px;
+    top:5px;
+    height:90px;
+}    
 a,li {
     text-decoration: none;
     color:#602B7A;
