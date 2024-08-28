@@ -30,7 +30,7 @@ li {
     margin-left: 40px;
 }
 .main{
-    width:100%;
+    width:1080px;
     display:flex;
     justify-content:space-around;
 }
