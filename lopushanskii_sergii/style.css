@@ -7,7 +7,7 @@ body {
 header{
     height: 600px;
     width: 100%;
-    background-color: #936996;
+    background-image:linear-gradient(#936996,purple,#936996);
 }
 nav{
     display: flex;
@@ -18,6 +18,11 @@ nav a{
     text-decoration: none;
     color: black;
 }
+
+nav a:hover {
+    color:#924163;
+}
+
 header h1{
     font-family: "Ribeye Marrow", serif;
     text-align: center;
@@ -44,22 +49,15 @@ section{
 }
 
 footer {
-    background-color:#936996;
+    background-image:linear-gradient(#75558B,purple);
     padding: 15px;
-}
-
-.contact {
-   background-color:#936996; 
-
-
-}
-
-.social {
-    background-color:#936996;
 }
 
 .catalog1 {
     text-align: center;
+    background-color:#3F3A48;
+    color:black;
+    padding:10px;
 }
 
 .cina {
